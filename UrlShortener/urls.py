@@ -8,7 +8,7 @@ urlpatterns = [
     path('auth/refresh/',GetUserData.as_view()),
     path('auth/logout',Logout.as_view()),
 
-
+# as blet negaliu suprasti git
     path('url/creaturl/',ShortenedUrlsCreating.as_view()), 
     path('url/geturl/',GetallUserurls.as_view()),
     path('url/red/<str:pk>',Redirect.as_view())
